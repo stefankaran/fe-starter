@@ -1,0 +1,30 @@
+///------------------------------------
+//    #TRUMPS
+//------------------------------------
+
+// Globaly available hacks or overwrits
+
+
+
+
+
+//-------------------------
+//    #Invisible
+//-------------------------
+
+// Hide some element, instead display: none;
+// Better solution for SEO
+//
+// .simple-usage {
+//    @extend .invisible;
+// }
+
+.invisible,
+%invisible {
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 0;
+  text-indent: -5000px;
+  overflow: hidden;
+}

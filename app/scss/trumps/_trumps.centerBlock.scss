@@ -1,0 +1,26 @@
+///------------------------------------
+//    #TRUMPS
+//------------------------------------
+
+// Globaly available hacks or overwrits
+
+
+
+
+
+//-------------------------
+//    #Center-align block
+//-------------------------
+
+// Center-align a block level element
+// Requires width or max-width to be set!!!
+// 
+// .simple-usage {
+//    @extend .center-block;
+// }
+.center-block,
+%center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

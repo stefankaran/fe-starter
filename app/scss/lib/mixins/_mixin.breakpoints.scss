@@ -1,0 +1,12 @@
+//----- Mixin / Breakpoints
+// Just set variable for breakpoint in _settings.breakpoints.scss
+@mixin breakpoint($name) {
+  @if map-has-key($breakpoints, $name) {
+    @media #{inspect(map-get($breakpoints, $name))} {
+      @content;
+    }
+  }
+  @else {
+    @warn unquote("\"Couldn't find a breakpoint named \"#{$name}\" !!!\"");
+  }
+}

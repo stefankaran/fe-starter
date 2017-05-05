@@ -1,0 +1,29 @@
+//------------------------------------------------------------------------------
+//   Import all styles
+//-----------------------------------------------------------------------------
+
+//------CORE
+// Core files prepare DOM by making HTML elements consistent across browsers
+// and removing built-in browser styling.
+@import 'core/all';
+
+//------MIXINS and functions
+@import 'lib/all';
+
+//------SETTINGS FOR PROJECT
+@import 'settings/all';
+
+//------BLOCKS
+@import 'blocks/all';
+
+//------COMPONENTS
+@import 'components/all';
+
+//------Layouts
+@import 'layouts/all';
+
+//------PAGES
+@import 'pages/all';
+
+//------TRUMPS
+@import 'trumps/all';
